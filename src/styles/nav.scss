@@ -64,7 +64,7 @@ header {
 	z-index: 5;
 	
 	padding: 0px 0;
-	@include $media-breakpoint-up(md) {
+	@include media-breakpoint-up(md) {
 		padding: 30px 0;	
 	}
     .banner{
@@ -78,13 +78,13 @@ header {
         background: black;
 		&.absolute {
 			position: absolute;
-			@include $media-breakpoint-down(md) {
+			@include media-breakpoint-down(md) {
 				position: relative;
 			}
 		}
 		span {
-			color: white;
-			@include $media-breakpoint-up(md) {
+			color: $white;
+			@include media-breakpoint-up(md) {
 				color: gray('400');
 			}
 		}
@@ -107,11 +107,11 @@ header {
 			outline: none!important;
 			font-size: 1rem;
 			color: white!important;
-			@include $media-breakpoint-down(lg) {
+			@include media-breakpoint-down(lg) {
 				padding: .5rem 0rem;
 			}
 			&.active {
-				color: white!important;
+				color: $white!important;
 			}
 		}
 
@@ -135,7 +135,7 @@ header {
 				pointer-events: none;				
 				border-bottom-color: #fff;
 				border-width: 7px;
-				@include $media-breakpoint-down(md) {
+				@include media-breakpoint-down(md) {
 					display: none;
 				}
 			}
@@ -144,12 +144,12 @@ header {
 				
 				&:hover {
 					background: theme-color('primary');
-					color: white;	
+					color: $white;	
 				}
 				&.active {
 					background: theme-color('primary');
 					// background: gray('100');
-					color: white;
+					color: $white;
 				}
 			}
 			a {
@@ -160,8 +160,8 @@ header {
 		}
 		.cta-btn {
 			a {
-				background: primary;
-				color: white!important;
+				background: $primary;
+				color: $white!important;
 				
 				text-transform: uppercase;
 				font-size: .8rem;
@@ -170,8 +170,8 @@ header {
 				font-weight: bold;
 				transition: .3s all ease;
 				&:hover {
-					background: white;
-					color: primary!important;
+					background: $white;
+					color: $primary!important;
 					box-shadow: 2px 0 30px -5px rgba(0,0,0,.2);
 				}
 			}
