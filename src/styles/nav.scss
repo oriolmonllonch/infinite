@@ -2,7 +2,7 @@
 
 @import "bootstrap/_functions.css";
 @import "bootstrap/_variables.css";
-@import "bootstrap/_mixins";
+@import "bootstrap/_mixins.csss";
 
 
 body {
@@ -72,6 +72,7 @@ header {
 		letter-spacing: .2em;
 		font-weight: 800;
 		font-size: 2rem;
+        background: black;
 		&.absolute {
 			position: absolute;
 			@include media-breakpoint-down(md) {
