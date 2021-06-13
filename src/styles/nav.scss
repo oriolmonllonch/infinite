@@ -94,14 +94,14 @@ header {
 		@include media-breakpoint-up(md) {
 			padding-top: 0;
 			padding-bottom: 0;
-			background: none!important;
+			background: white!important;
 			position: relative;	
 		}
 		.nav-link {
 			padding: 1.7rem 1rem;
 			outline: none!important;
 			font-size: 1rem;
-			color: rgba(255,255,255,.8)!important;
+			color: black!important;
 			@include media-breakpoint-down(lg) {
 				padding: .5rem 0rem;
 			}
