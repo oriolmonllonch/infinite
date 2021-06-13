@@ -19,7 +19,7 @@ body {
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background: rgba($black, .5);
+		background: rgba(black, .5);
 		transition: .3s all ease;
 		opacity: 0;
 		visibility: hidden;
@@ -39,7 +39,7 @@ p {
 }
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-	font-family: $font-family-sans-serif;
+	font-family: font-family-sans-serif;
 }
 a {
 	transition: .3s all ease;
@@ -83,7 +83,7 @@ header {
 			}
 		}
 		span {
-			color: $white;
+			color: white;
 			@include media-breakpoint-up(md) {
 				color: gray('400');
 			}
@@ -111,7 +111,7 @@ header {
 				padding: .5rem 0rem;
 			}
 			&.active {
-				color: $white!important;
+				color: white!important;
 			}
 		}
 
@@ -144,12 +144,12 @@ header {
 				
 				&:hover {
 					background: theme-color('primary');
-					color: $white;	
+					color: white;	
 				}
 				&.active {
 					background: theme-color('primary');
 					// background: gray('100');
-					color: $white;
+					color: white;
 				}
 			}
 			a {
@@ -160,8 +160,8 @@ header {
 		}
 		.cta-btn {
 			a {
-				background: $primary;
-				color: $white!important;
+				background: primary;
+				color: white!important;
 				
 				text-transform: uppercase;
 				font-size: .8rem;
@@ -170,8 +170,8 @@ header {
 				font-weight: bold;
 				transition: .3s all ease;
 				&:hover {
-					background: $white;
-					color: $primary!important;
+					background: white;
+					color: primary!important;
 					box-shadow: 2px 0 30px -5px rgba(0,0,0,.2);
 				}
 			}
