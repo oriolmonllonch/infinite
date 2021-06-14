@@ -1,12 +1,7 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 module.exports = function(eleventyConfig) {
-   /* eleventyConfig.setTemplateFormats([
-      "md",
-      "css",
-      "js"
-    ]);*/
-    eleventyConfig.addPlugin(eleventyNavigationPlugin);
+     eleventyConfig.addPlugin(eleventyNavigationPlugin);
     eleventyConfig.addPassthroughCopy('src/images');
 
   return {
