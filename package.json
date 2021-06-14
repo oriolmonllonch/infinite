@@ -29,6 +29,7 @@
   "homepage": "https://github.com/ianrose/deventy#readme",
   "devDependencies": {
     "@11ty/eleventy-navigation": "^0.2.0",
+    "add-asset-html-webpack-plugin": "^3.2.0",
     "light-server": "2.9.1"
   },
   "dependencies": {
