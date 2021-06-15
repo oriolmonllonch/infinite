@@ -13,9 +13,9 @@
     }
     
 }
-@media only screen (max-with: 1552px){
+@include media-breakpoint-up(md) {
     .product{
         width: 30%;
-        display: block;
+       
     }
 }
