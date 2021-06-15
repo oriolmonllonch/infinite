@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+<h2 class="w3-center"> <b>NEW</b> Nike SB Shane</h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/d7b4a3c4-0e9c-4638-9ceb-610ff5aebf5b/sb-shane-zapatillas-de-skateboard-6sthZC.png" style="width:100%">
+  <img class="mySlides" src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/3be59b9e-bcef-49e0-9b01-932f97e18267/sb-shane-zapatillas-de-skateboard-6sthZC.png" style="width:100%">
+  <img class="mySlides" src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/0982c6e0-2338-455d-bcf4-2b9936509bd6/sb-shane-zapatillas-de-skateboard-6sthZC.png" style="width:100%">
+  <img class="mySlides" src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/aa2329b6-1171-4e3f-b09b-76b8c7907aa3/sb-shane-zapatillas-de-skateboard-6sthZC.png" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>
