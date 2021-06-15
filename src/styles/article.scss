@@ -5,7 +5,6 @@
 }
 .product{
     width: 26%;
-    display: block;
    
     img{
         width: 100%;
@@ -14,15 +13,14 @@
     
 }
 
-@media only screen and (min-with: 736px) {
+@media only screen and (max-with: 736px) {
     .article{
         width: 100%;
-        display: none;
-         margin: 0 auto;
+        display: block;
+        
     }
     .product{
-        display: block;
-       
+       width:  100%;
         img{
             width: 100%;
              height: auto;
