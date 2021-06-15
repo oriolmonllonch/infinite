@@ -9,6 +9,13 @@
    
     img{
         width: 100%;
-  height: auto;
+         height: auto;
+    }
+    
+}
+@media only screen (max-with: 1552px){
+    .product{
+        width: 30%;
+        display: block;
     }
 }
