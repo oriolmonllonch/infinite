@@ -1,31 +1,32 @@
 .article{
-    width: 100%;
-    display: inline;
+    width: 80%;
+    display: flex;
      margin: 0 auto;
 }
 .product{
+    width: 26%;
     display: block;
    
     img{
         width: 100%;
          height: auto;
     }
-    @media only screen and (min-with: 736px) {
-        .article{
-            width: 80%;
-            display: flex;
-             margin: 0 auto;
-        }
-        .product{
-            width: 26%;
-            display: block;
-           
-            img{
-                width: 100%;
-                 height: auto;
-            }
-            
-        }
-    }
+    
 }
 
+@media only screen and (min-with: 736px) {
+    .article{
+        width: 100%;
+        display: inline;
+         margin: 0 auto;
+    }
+    .product{
+        display: block;
+       
+        img{
+            width: 100%;
+             height: auto;
+        }
+        
+    }
+}
