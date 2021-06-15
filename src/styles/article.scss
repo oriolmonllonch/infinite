@@ -13,9 +13,13 @@
     }
     
 }
-@media only screen and (max-with: 1552px) {
+@media only screen and (max-with: 848) {
+  .article{
+      width: 100%;
+      display: block;
+  }
     .product{
-        width: 30%;
+        width: 100%;
        
     }
 }
